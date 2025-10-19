@@ -23,5 +23,5 @@ This project was developed using **R** within a **Jupyter Notebook environment**
     git clone [Your Repository URL]
     ```
 2.  **Install R Dependencies:** The specific R packages used for the analysis are listed in the `requirements.R` file.
-    * *Instructions here for installing the R packages (e.g., using `install.packages()` or `pacman::p_load`).*
+    * *Installation: Open the `requirements.R` file and run the `install.packages()` commands in your R console or environment before running the notebook.*
 3.  **Run the Notebook:** Open the `notebooks/Synthetic_Control_Jordan.ipynb` file and run all cells.
