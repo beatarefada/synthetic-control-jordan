@@ -8,7 +8,7 @@ We investigate the effect of the 2011 Syrian refugee crisis on **education quali
 * **Measurement:** We use **PISA (Programme for International Student Assessment)** scores for **Mathematics and Reading** as the internationally comparable measure of educational quality.
 * **Treatment:** The treatment year (the point of intervention) is set to **2011**.
 * **Synthetic Control:** We constructed a synthetic "Jordan" from a **donor pool of 13 other countries** whose pre-treatment PISA trends closely matched those of the real Jordan.
-* **Analysis File:** The complete analysis is contained within the notebook: `notebooks/Synthetic_Control_Jordan.ipynb`.
+* **Analysis File:** The complete analysis is contained within the notebook: `Synthetic_Control_Jordan.ipynb`.
 
 ## III. Key Findings
 The Synthetic Control Analysis found a **near-to-zero, statistically insignificant effect** on the Jordanian students’ PISA scores when compared to their synthetic counterpart.
@@ -24,4 +24,4 @@ This project was developed using **R** within a **Jupyter Notebook environment**
     ```
 2.  **Install R Dependencies:** The specific R packages used for the analysis are listed in the `requirements.R` file.
     * *Installation: Open the `requirements.R` file and run the `install.packages()` commands in your R console or environment before running the notebook.*
-3.  **Run the Notebook:** Open the `notebooks/Synthetic_Control_Jordan.ipynb` file and run all cells.
+3.  **Run the Notebook:** Open the notebook `Synthetic_Control_Jordan.ipynb` file and run all cells.
