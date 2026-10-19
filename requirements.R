@@ -1,10 +1,8 @@
-# R Packages required for the Synthetic Control Analysis project.
-# Run these commands in your R environment to install necessary dependencies.
+# Required packages for Synthetic Control Analysis
+required_packages <- c("Synth", "dplyr", "purrr", "tidyr", "zoo")
 
-install.packages('gsheet')
-install.packages('Synth')
-install.packages('dplyr')
-install.packages('zoo')
-install.packages('tidyr')
-install.packages('purrr')
-install.packages('knitr')
+# Install missing packages automatically
+new_packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
+if (length(new_packages) > 0) {
+  install.packages(new_packages)
+}
