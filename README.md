@@ -8,7 +8,7 @@ We investigate the effect of the 2011 Syrian refugee crisis on **education quali
 * **Measurement:** We use **PISA (Programme for International Student Assessment)** scores for **Mathematics and Reading** as the internationally comparable measure of educational quality.
 * **Treatment:** The treatment year (the point of intervention) is set to **2011**.
 * **Synthetic Control:** We constructed a synthetic "Jordan" from a **donor pool of 13 other countries** whose pre-treatment PISA trends closely matched those of the real Jordan.
-* **Analysis File:** The complete analysis is contained within the notebook: `Synthetic_Control_Jordan.ipynb`.
+* **Analysis File:** The complete analysis is contained within the notebook: `01_synthetic_control_jordan.R`.
 
 ## III. Key Findings
 The Synthetic Control Analysis found a **near-to-zero, statistically insignificant effect** on the Jordanian students’ PISA scores when compared to their synthetic counterpart.
@@ -16,12 +16,9 @@ The Synthetic Control Analysis found a **near-to-zero, statistically insignifica
 **Conclusion:** The results suggest that the large-scale shock from the incoming refugees was **not large enough to register a significant negative impact** on national-level PISA data. This warrants further investigation into potential **regional- or school-level effects** that may not be captured by national averages.
 
 ## IV. Replication and Running the Analysis
-This project was developed using **R** within a **Jupyter Notebook environment**.
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your Repository URL]
-    ```
-2.  **Install R Dependencies:** The specific R packages used for the analysis are listed in the `requirements.R` file.
-    * *Installation: Open the `requirements.R` file and run the `install.packages()` commands in your R console or environment before running the notebook.*
-3.  **Run the Notebook:** Open the notebook `Synthetic_Control_Jordan.ipynb` file and run all cells.
+### 1. Prerequisites
+Clone the repository to your local machine:
+```bash
+git clone [https://github.com/beatarefada/synthetic-control-jordan.git](https://github.com/beatarefada/synthetic-control-jordan.git)
+cd synthetic-control-jordan
